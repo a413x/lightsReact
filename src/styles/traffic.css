@@ -1,0 +1,23 @@
+.main-container {
+  display: flex;
+}
+.traffic{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.lights-container{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 250px;
+  background: url('../assets/traffic_light.png');
+  background-repeat: no-repeat;
+  background-size: 200px 250px;
+}
+.time{
+  margin-top: 30px;
+  font-size: 1.7em;
+}
