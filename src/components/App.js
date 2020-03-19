@@ -8,9 +8,6 @@ class App extends Component {
       super(props);
       this.lightsState = [[1,0,0],[0,1,0],[0,0,1]];
     }
-    componentDidUpdate(prevProps){
-      console.log('app ' + prevProps);
-    }
     render() {
         return (
           <Router>

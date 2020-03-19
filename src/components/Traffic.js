@@ -94,8 +94,8 @@ class Traffic extends Component {
     });
   }
 
-  onSetClick(val,ind){
-    this.times[ind] = val;
+  onSetClick(nextTimes){
+    this.times = nextTimes;
   }
 
   render() {
@@ -118,8 +118,7 @@ class Traffic extends Component {
 
         <Navbar times = {this.times} colors = {this.colors}
           onSetClick = {this.onSetClick}
-          setTime = {this.setTimeCount} />
-
+          onLinkClick = {this.setTimeCount} />
       </div>
     );
   }
