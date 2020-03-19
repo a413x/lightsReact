@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Traffic component renders properly 1`] = `
+<div
+  className="main-container"
+>
+  <div
+    className="traffic"
+  >
+    <div
+      className="lights-container"
+    >
+      <Light
+        blink={false}
+        color="red"
+        isActive={1}
+        key="0"
+      />
+      <Light
+        blink={false}
+        color="yellow"
+        isActive={0}
+        key="1"
+      />
+      <Light
+        blink={false}
+        color="green"
+        isActive={0}
+        key="2"
+      />
+    </div>
+    <div
+      className="time"
+    >
+       
+      5
+       
+    </div>
+  </div>
+  <Navbar
+    colors={
+      Array [
+        Object {
+          "color": "red",
+          "id": 0,
+        },
+        Object {
+          "color": "yellow",
+          "id": 1,
+        },
+        Object {
+          "color": "green",
+          "id": 2,
+        },
+      ]
+    }
+    onLinkClick={[Function]}
+    onSetClick={[Function]}
+    times={
+      Array [
+        5,
+        4,
+        7,
+      ]
+    }
+  />
+</div>
+`;

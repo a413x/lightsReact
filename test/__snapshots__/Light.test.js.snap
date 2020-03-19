@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Light component Light active state renders properly 1`] = `
+<div
+  className="light yellow-light"
+/>
+`;
+
+exports[`Tests for Light component Light blink state renders properly 1`] = `
+<div
+  className="light green-light blink"
+/>
+`;
+
+exports[`Tests for Light component Light initial renders properly 1`] = `
+<div
+  className="light "
+/>
+`;

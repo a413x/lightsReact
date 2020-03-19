@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Navbar component Navbar initial renders properly 1`] = `
+<div
+  className="nav"
+>
+  <div
+    key="0"
+  >
+    <Link
+      onClick={[Function]}
+      to="/red"
+    >
+      Red
+    </Link>
+    <input
+      max="100"
+      min="0"
+      onChange={[Function]}
+      type="number"
+      value={5}
+    />
+    <button
+      onClick={[Function]}
+    >
+      Set
+    </button>
+  </div>
+  <div
+    key="1"
+  >
+    <Link
+      onClick={[Function]}
+      to="/yellow"
+    >
+      Yellow
+    </Link>
+    <input
+      max="100"
+      min="0"
+      onChange={[Function]}
+      type="number"
+      value={4}
+    />
+    <button
+      onClick={[Function]}
+    >
+      Set
+    </button>
+  </div>
+  <div
+    key="2"
+  >
+    <Link
+      onClick={[Function]}
+      to="/green"
+    >
+      Green
+    </Link>
+    <input
+      max="100"
+      min="0"
+      onChange={[Function]}
+      type="number"
+      value={7}
+    />
+    <button
+      onClick={[Function]}
+    >
+      Set
+    </button>
+  </div>
+</div>
+`;
